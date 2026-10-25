@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #10213B;
+    width: 102%;
+    height: 100px;
+    margin:-8px  ;
+    margin-right: -8px;
+        
+}
+header p{
+    font-family: Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #fff;
+        padding-left: 30px;
+        padding-top: 25px;
+        margin-left: 70px;
+}
+.Academy{
+        font-family: Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #a78bfa;
+}
+
+body header div {
+        
+                letter-spacing: 1px; 
+                margin-top: -60px;
+                margin-right: 39px;
+                font-size: 17px;
+                text-align: end;
+                font-family: Arial, sans-serif;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 27px;
+                padding-left: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.page {
+    width: 102%;
+    height: 500px;
+    background-image: url(Artguru_Upscale_istockphoto-157524162-612x612.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin-top: -15px;
+    margin-left: -8px;
+    margin-right: 100px;
+    padding-top: 55px;
+    padding-left: 100px;
+    padding-right: -8px;
+    padding-bottom: 30px;
+    display: block;
+    object-fit: cover;
+}
+.page , span {
+    color: #A78BFA;
+}
+.page,h1 {
+    /* color: #fcfcfd;
+    font-weight: bold;
+    font-size: 50px; */
+    font-family: Arial, sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        color: #fff;
+}
+.build_tomorrow{
+    color: #fcfcfd;
+        font-weight: bold;
+        font-size: 50px;
+}
+
+body .para{
+    font-family: Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff;
+}
+body .para ,p{
+    font-family: Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff;
+}
+button{
+    font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #fff;
+        background-color: #8B5CF6;
+        width: 170px;
+        height: 55px;
+        border-radius: 20px 20px 20px 20px;
+        cursor: pointer;
+        border: 0px;
+            
+}
+
+.half_page h1{
+    font-family: Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 51px;
+        color: #172b4d;
+        padding-left: 50px;
+}
+.half_page p{
+    font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #64748b;
+        padding-left: 50px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+    margin: 0px 50px 30px;
+    box-sizing: border-box;
+    position: relative;
+    flex: 0 0 40%;
+    padding: 30px;
+    flex: 1;
+    align-items: stretch;
+}
+
+.parent .child1{
+    border: 0px solid white;
+    box-shadow:0px 8px 24px rgb(1, 7, 5) ;
+    border-radius: 20px;
+    padding-left: 8px;
+    display: block;
+    height: 200px;
+    width: 500px;
+    background-color: #EEE8FF;
+    position: relative;
+    
+}
+.child1 a{
+    background-color:#EEE8FF ;
+    color: #8B5CF6;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+.child1 p{
+    font-family: Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #475569;
+}
+.parent .child2{
+    border: 0px solid white;
+        box-shadow: 0px 8px 24px rgb(1, 7, 5);
+        border-radius: 20px;
+        padding-left: 8px;
+        display: block;
+        height: 200px;
+            width: 500px;
+        background-color: #E0F2FE;
+}
+.child2 p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475569;
+}
+.child2 a {
+    background-color: #E0F2FE;
+    color: #8B5CF6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.parent .child3 {
+    border: 0px solid white;
+    box-shadow: 0px 8px 24px rgb(1, 7, 5);
+    border-radius: 20px;
+    padding-left: 8px;
+    display: block;
+    height: 200px;
+        width: 500px;
+    background-color: #DFF8EE;
+}
+
+.child3 p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475569;
+}
+.child3 a {
+    background-color: #DFF8EE;
+    color: #8B5CF6;
+    font-weight: bold;
+    text-decoration: none;
+}
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #7774d9;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 13px;
+    
+}
+.foooter{
+    background-color: #10213B;
+margin: 0px -8px;
+}
+.foooter .uperend{
+    font-family: Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35px;
+        color: #fff;
+        text-align: center;
+        /* background-color: #10213B; */
+        margin-bottom:-8px;
+        margin-left: -8px;
+        margin-left: -8px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        
+}
+
+.foooter .theend{
+    font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #cbd5e1;
+        padding-bottom: 15px;
+        /* background-color: #10213B; */
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 0px;
+        margin-left: -8px;
+        margin-bottom: -20px;
+}
